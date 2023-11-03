@@ -11,5 +11,5 @@ Each class of the API plays a vital role in the overall functionality of Ethers.
 
 ***[What is Ethers.js?](https://docs.alchemy.com/docs/what-is-ethers-js)***
 
-***[Ethers.js Cheatsheet](https://www.testingchain.xyz/posts/cheatsheets/ethers-js)***
+***[Ethers.js Cheatsheet](https://www.testingchain.xyz/posts/cheatsheets/ethers-js)***<br><br><br>
 ![Ethersjs](https://github.com/CoorayNTL/ethersJS/assets/96631498/ebced0c9-9e8e-4251-97be-b59ff153868f)

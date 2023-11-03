@@ -22,19 +22,19 @@ The ERC-20 introduces a standard for Fungible Tokens, in other words, they have 
 *transfer tokens from one account to another<br>
 *get the current token balance of an account<br>
 *get the total supply of the token available on the network<br>
-*whether an amount of token from an account can be spent by a third-party account<br>
-##### Methods
-`function name() public view returns (string)
-function symbol() public view returns (string)
-function decimals() public view returns (uint8)
-function totalSupply() public view returns (uint256)
-function balanceOf(address _owner) public view returns (uint256 balance)
-function transfer(address _to, uint256 _value) public returns (bool success)
-function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)
-function approve(address _spender, uint256 _value) public returns (bool success)
-function allowance(address _owner, address _spender) public view returns (uint256 remaining)
-`
-##### Events
-`event Transfer(address indexed _from, address indexed _to, uint256 _value)
-event Approval(address indexed _owner, address indexed _spender, uint256 _value)
-`
+*whether an amount of token from an account can be spent by a third-party account<br><br>
+##### Methods<br>
+`function name() public view returns (string)<br>
+function symbol() public view returns (string)<br>
+function decimals() public view returns (uint8)<br>
+function totalSupply() public view returns (uint256)<br>
+function balanceOf(address _owner) public view returns (uint256 balance)<br>
+function transfer(address _to, uint256 _value) public returns (bool success)<br>
+function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)<br>
+function approve(address _spender, uint256 _value) public returns (bool success)<br>
+function allowance(address _owner, address _spender) public view returns (uint256 remaining)<br>
+`<br>
+##### Events<br>
+`event Transfer(address indexed _from, address indexed _to, uint256 _value)<br>
+event Approval(address indexed _owner, address indexed _spender, uint256 _value)<br>
+`<br>

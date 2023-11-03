@@ -19,12 +19,13 @@ Each class of the API plays a vital role in the overall functionality of Ethers.
 #### What is ERC-20?<br>
 The ERC-20 introduces a standard for Fungible Tokens, in other words, they have a property that makes each Token be exactly the same (in type and value) as another Token.<br> For example, an ERC-20 Token acts just like the ETH, meaning that 1 Token is and will always be equal to all the other Tokens.<br><br>
 **Example functionalities ERC-20 provides:**<br>
-*transfer tokens from one account to another<br>
-*get the current token balance of an account<br>
-*get the total supply of the token available on the network<br>
-*whether an amount of token from an account can be spent by a third-party account<br><br>
+* transfer tokens from one account to another<br>
+* get the current token balance of an account<br>
+* get the total supply of the token available on the network<br>
+* whether an amount of token from an account can be spent by a third-party account<br><br>
 ##### Methods<be>
-code :-(function name() public view returns (string)
+```
+function name() public view returns (string)
 function symbol() public view returns (string)
 function decimals() public view returns (uint8)
 function totalSupply() public view returns (uint256)
@@ -32,9 +33,12 @@ function balanceOf(address _owner) public view returns (uint256 balance)
 function transfer(address _to, uint256 _value) public returns (bool success)
 function transferFrom(address _from, address _to, uint256 _value) public returns (bool success)
 function approve(address _spender, uint256 _value) public returns (bool success)
-function allowance(address _owner, address _spender) public view returns (uint256 remaining))
+function allowance(address _owner, address _spender) public view returns (uint256 remaining)
+
+```
 br>
 ##### Events<br>
-`event Transfer(address indexed _from, address indexed _to, uint256 _value)<br>
+```
+event Transfer(address indexed _from, address indexed _to, uint256 _value)<br>
 event Approval(address indexed _owner, address indexed _spender, uint256 _value)<br>
-`<br>
+```<br>
